@@ -59,6 +59,25 @@ body {
 }
 
 .delete {
-  position: relative;
-  margin-right: 0;
+  position: absolute;
+	right: 0;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-right: 3px;
+  background-color: #F8C600;
+  border-radius: 20%;
+}
+
+.delete:hover {
+  background-color: #DA4167;
+}
+
+input[type=checkbox] {
+    position: relative;
+    display:inline;
+    margin: 10px;
+}
+
+input[type=checkbox]:checked + .task-input{
+  text-decoration: line-through;
 }
