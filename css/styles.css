@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
-
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Nunito', sans-serif;
   background-color: #DA4167 !important;
 }
 
@@ -44,4 +42,23 @@ body {
     width: 100%;
     text-align: left;
   }
+}
+
+.content-tasks {
+  background-color: #F2F2F2;
+  position: relative;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-bottom: 1px solid #F8C600;
+}
+
+.task-input {
+  font-family: 'Handlee', cursive;
+  font-size: 18px;
+  margin: auto 0;
+}
+
+.delete {
+  position: relative;
+  margin-right: 0;
 }
