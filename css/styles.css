@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700");
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #DA4167 !important;
+}
+
+.container-todo {
+  max-width: 60%!important;
+}
+
+.title {
+  padding: 30px;
+  text-align: center;
+  color: #F8C600;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #F8C600;
+  text-decoration: none;
+  color: #DA4167;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
