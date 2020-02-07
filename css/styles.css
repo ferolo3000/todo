@@ -1,6 +1,6 @@
 body {
   font-family: 'Nunito', sans-serif;
-  background-color: #DA4167 !important;
+  background-color: #ff80b0 !important;
 }
 
 .container-todo {
@@ -10,29 +10,33 @@ body {
 .title {
   padding: 30px;
   text-align: center;
-  color: #F8C600;
+  color: #fdd365;
 }
 
 .navbar {
   width: 100%;
-  background-color: #555;
+  background-color: #9399ff;
   overflow: auto;
+  color: #fff;
 }
 
-.navbar a {
+.filter-button {
   float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
+  padding: 10px;
+  background-color: #9399ff;
   font-size: 17px;
-  width: 33%; /* Four links of equal widths */
+  width: 33%; /* 3 links of equal widths */
   text-align: center;
 }
 
-.navbar a:hover {
-  background-color: #F8C600;
-  text-decoration: none;
-  color: #DA4167;
+.filter-button:hover {
+  background-color: #fdd365;
+  color: #222831;
+}
+
+.filter-button:focus {
+  background-color: #fdd365;
+  color: #222831;
 }
 
 @media screen and (max-width: 500px) {
@@ -74,7 +78,6 @@ body {
 
 input[type=checkbox] {
     position: relative;
-    display:inline;
     margin: 10px;
 }
 
